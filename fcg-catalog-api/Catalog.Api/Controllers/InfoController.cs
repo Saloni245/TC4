@@ -13,7 +13,7 @@ namespace Catalog.Api.Controllers;
 public class InfoController : ControllerBase
 {
     /// <summary>Versao do servico. Altere aqui para demonstrar o deploy continuo.</summary>
-    public const string Versao = "4.0.0";
+    public const string Versao = "4.1.0";
 
     private readonly IWebHostEnvironment _env;
 
